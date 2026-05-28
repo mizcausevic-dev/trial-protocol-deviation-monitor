@@ -1,0 +1,35 @@
+{
+  "trials": [
+    {
+      "id": "DEV-5001",
+      "study": "CARD-510 Observational",
+      "site": "Seattle Site 03",
+      "cohort": "Follow-up cohort",
+      "owner": "Clinical Quality",
+      "status": "ON_TRACK",
+      "workflowHealthy": true,
+      "daysToReview": 4,
+      "packet": "Deviation review packet",
+      "excerpt": "Packet is complete and in sponsor QA review.",
+      "nextAction": "Hold for sponsor acknowledgment."
+    }
+  ],
+  "packets": [
+    {
+      "id": "PKT-900",
+      "caseId": "DEV-5001",
+      "study": "CARD-510 Observational",
+      "site": "Seattle Site 03",
+      "owner": "Clinical Quality",
+      "domain": "SOURCE_DATA",
+      "kind": "Source",
+      "severity": "low",
+      "status": "RESOLVED",
+      "scope": "Follow-up cohort",
+      "principal": "Deviation review packet",
+      "message": "Deviation packet is complete and closed.",
+      "openedAt": "2026-05-26T08:00:00Z",
+      "dueAt": "2026-05-30T17:00:00Z"
+    }
+  ]
+}
